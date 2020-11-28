@@ -8,8 +8,8 @@ from activities.assist import digital_assistant
 class CallLiz:
     def listenToLiz(self):
         r = sr.Recognizer()
-        f = "Li"
-        pattern = re.compile("L.*")
+        f = "Zow"
+        pattern = re.compile("Zo.*")
         with sr.Microphone() as source:
             print("I am listening...")
             audio = r.listen(source)
