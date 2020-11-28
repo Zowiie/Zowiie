@@ -1,5 +1,5 @@
 from time import ctime
-from activities.respondliz import respond
+from activities.respondzowiie import respond
 def times(data):
     if "time" in data:
         listening = True
